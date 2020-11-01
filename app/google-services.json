@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1065657875660",
+    "firebase_url": "https://doorbellrider.firebaseio.com",
+    "project_id": "doorbellrider",
+    "storage_bucket": "doorbellrider.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065657875660:android:60c19c1d433114eb685669",
+        "android_client_info": {
+          "package_name": "com.rs.doorbell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065657875660-e4noitns48kkfkapor1evscsie4lnpfj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rs.doorbell",
+            "certificate_hash": "2f1318da23faf40b6d277e7e523fd0cfb4e30214"
+          }
+        },
+        {
+          "client_id": "1065657875660-t2m1a85hl1eckgal61grl05leno8cvpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcByqQ7LUwYjBktORhp0XRLIyFJEQWuec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065657875660-t2m1a85hl1eckgal61grl05leno8cvpa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <net.bohush.geometricprogressview.GeometricProgressView
+            android:id="@+id/progressView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:gp_color="?attr/colorProgress"
+            app:gp_duration="800"
+            app:gp_figure_padding="3dp"
+            app:gp_number_of_angles="20"
+            app:gp_type="triangle" />
+
+
+        <com.rs.doorbell.TextviewUtil.LabelTextview
+            android:id="@+id/txt_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorNormal"
+            android:layout_marginTop="25dp"
+            android:textSize="@dimen/label_text_size"
+            android:text="@string/upload_document"></com.rs.doorbell.TextviewUtil.LabelTextview>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

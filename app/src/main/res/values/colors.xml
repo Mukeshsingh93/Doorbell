@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--Color for Day Mode-->
+
+    <color name="colorPrimary">#0184bc</color>
+    <color name="colorPrimaryDark">#0184bc</color>
+    <color name="colorAccent">#0184bc</color>
+
+    <color name="colorHeading">#0184bc</color>
+    <color name="colorLabel">#0184bc</color>
+    <color name="colorNormal">#0184bc</color>
+    <color name="tagline">#AAAAAA</color>
+    <color name="colorIndicator">#B77CA2D8</color>
+
+    <color name="colorindicatorsssss">#ffffff</color>
+
+    <color name="colorDefaultNavigationIconDay">#858D9B</color>
+    <color name="colorSelectedNavigationIconDay">#ffffffff</color>
+    <color name="colorBottomNavigationDay">#0184bc</color>
+
+    <color name="colorDefaultFavouriteDay">#8DCCCCCC</color>
+    <color name="colorSelectedFavouriteDay">#0184bc</color>
+
+    <color name="colorRatingIconDay">#ffd500</color>
+    <color name="colorRequiredDay">#0184bc</color>
+    <color name="colorRequiredBackgroundDay">#5BCDE0F7</color>
+    <color name="colorTransparentBackgroundDay">#CE323F51</color>
+
+    <color name="colorButtonDay">#0184bc</color>
+    <color name="yellow">#FFB01A</color>
+    <color name="colorProgressDay">#0184bc</color>
+    <color name="colorCardDay">#ffffffff</color>
+    <color name="colorSelectorDay">#0184bc</color>
+    <color name="colorSwitchTrackOnDay">#DDDDDD</color>
+    <color name="colorSwitchTrackOffDay">#0184bc</color>
+    <color name="colorBackgroundLightDay">#2ccccccc</color>
+    <color name="colorReadingBarDay">#ffd500</color>
+    <color name="colorMenuBackgroundDay">#11D06B</color>
+    <color name="colorLinkDay">#0008f2</color>
+    <color name="colorNutritionBackgroundDay">#2ccccccc</color>
+    <color name="colorDeleteDay">#0184bc</color>
+
+    <!--Color for Night Mode-->
+
+    <color name="colorPrimaryNight">#000000</color>
+    <color name="colorPrimaryDarkNight">#000000</color>
+    <color name="colorAccentNight">#0184bc</color>
+    <color name="colorBackgroundNight">#000000</color>
+    <color name="colorButtonNight">#0184bc</color>
+
+    <color name="colorHeadingNight">#ffffff</color>
+    <color name="colorTaglineNight">#606E82</color>
+
+    <color name="colorDefaultNavigationIconNight">#222E3F</color>
+    <color name="colorSelectedNavigationIconNight">#ffffffff</color>
+    <color name="colorBottomNavigationNight">#323f51</color>
+
+    <color name="colorDefaultFavouriteNight">#2ccccccc</color>
+    <color name="colorSelectedFavouriteNight">#0184bc</color>
+
+    <color name="colorRatingIconNight">#ffd500</color>
+    <color name="colorRequiredNight">#0184bc</color>
+    <color name="colorRequiredBackgroundNight">#728FB4DE</color>
+    <color name="colorTransparentBackgroundNight">#5BCDE0F7</color>
+
+    <color name="colorArrowNight">#0184bc</color>
+    <color name="colorProgressNight">#0184bc</color>
+    <color name="colorCardNight">#0e0e0e</color>
+    <color name="colorSelectorNight">#0184bc</color>
+    <color name="colorSwitchTrackOnNight">#0184bc</color>
+    <color name="colorSwitchTrackOffNight">#606E82</color>
+    <color name="colorBackgroundLightNight">#000000</color>
+    <color name="colorReadingBarNight">#0184bc</color>
+    <color name="colorMenuBackgroundNight">#0184bc</color>
+    <color name="colorLinkNight">#0184bc</color>
+    <color name="colorNutritionBackgroundNight">#0e0e0e</color>
+    <color name="colorDeleteNight">#0184bc</color>
+
+    <!--Color for Extensible Page Indicator-->
+
+    <color name="fpi_default_indicator_inactive_color">#80FFFFFF</color>
+    <color name="fpi_default_indicator_active_color">#FFFFFF</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="transparent">#00FFFFFF</color>
+
+
+    <color name="blueEnd">#0184bc</color>
+    <color name="purpleStart">#bb8c7fec</color>
+    <color name="yellowEnd">#c3ffb01a</color>
+    <color name="roseStart">#FF6A00</color>
+
+    <color name="brownStart">#a67c52</color>
+    <color name="orangeStart">#fdc689</color>
+    <color name="orangeEnd">#f9ad81</color>
+
+
+    <!--Color for Bubble Picker-->
+
+
+</resources>

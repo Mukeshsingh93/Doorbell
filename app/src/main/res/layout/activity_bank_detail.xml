@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ActivityUtil.MyBankDetail">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/menu_layout"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <com.rs.doorbell.EditTextUtil.NormalEditText
+                android:id="@+id/edit_holder_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="@dimen/tagline_text_size"
+                android:textColor="?attr/colorTagline"
+                android:textColorHint="?attr/colorTagline"
+                android:hint="@string/account_holder_name"
+                android:background="@drawable/bg_edit_text"
+                android:gravity="center_vertical"
+                android:paddingStart="10dp"></com.rs.doorbell.EditTextUtil.NormalEditText>
+
+            <com.rs.doorbell.EditTextUtil.NormalEditText
+                android:id="@+id/edit_account_no"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="@dimen/tagline_text_size"
+                android:textColor="?attr/colorTagline"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColorHint="?attr/colorTagline"
+                android:hint="@string/account_number"
+                android:background="@drawable/bg_edit_text"
+                android:gravity="center_vertical"
+                android:paddingStart="10dp"></com.rs.doorbell.EditTextUtil.NormalEditText>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <com.rs.doorbell.EditTextUtil.NormalEditText
+                    android:id="@+id/edit_transist_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/tagline_text_size"
+                    android:textColor="?attr/colorTagline"
+                    android:textColorHint="?attr/colorTagline"
+                    android:hint="@string/bank_transist_no"
+                    android:background="@drawable/bg_edit_text"
+                    android:gravity="center_vertical"
+                    android:paddingStart="10dp" />
+
+                <com.rs.doorbell.EditTextUtil.NormalEditText
+                    android:id="@+id/edit_bank_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="10dp"
+                    android:textSize="@dimen/tagline_text_size"
+                    android:textColor="?attr/colorTagline"
+                    android:textColorHint="?attr/colorTagline"
+                    android:hint="@string/bank_no"
+                    android:background="@drawable/bg_edit_text"
+                    android:gravity="center_vertical"
+                    android:paddingStart="10dp"></com.rs.doorbell.EditTextUtil.NormalEditText>
+
+
+
+            </LinearLayout>
+
+
+            <com.rs.doorbell.TextviewUtil.NormalTextview
+                android:id="@+id/txt_done"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/bg_call_to_action"
+                android:textSize="@dimen/normal_text_size"
+                android:textColor="@color/white"
+                android:text="@string/update_detail"></com.rs.doorbell.TextviewUtil.NormalTextview>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
